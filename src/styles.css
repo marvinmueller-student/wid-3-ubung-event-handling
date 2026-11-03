@@ -1,8 +1,12 @@
 .App {
   font-family: sans-serif;
+  /* Schriftart: sans-serif = beliebige serifenlose Standardschrift des Systems. */
   text-align: center;
+  /* Zentriert den Text und inline-Elemente (z.B. Button, input) horizontal im Container.
+     Die Wirkung gilt auch für alle Kinder, weil text-align vererbt wird. */
 }
 
 div {
   margin: 10px;
+  /*  margin ist der Abstand ausserhalb des Elements, padding wäre der Abstand innen. */
 }
